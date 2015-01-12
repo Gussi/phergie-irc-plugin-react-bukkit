@@ -1,0 +1,14 @@
+{
+    "require": {
+        "phergie/phergie-irc-bot-react": "dev-master",
+        "phergie/phergie-irc-plugin-react-pong": "1.0.*",
+        "phergie/phergie-irc-plugin-react-autojoin": "1.0.*",
+        "phergie/phergie-irc-plugin-react-command": "1.0.*",
+        "gussi/php-wrapper-pdo": "dev-master"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Gussi\\Irc\\Plugin\\Minecraft\\Bukkit\\" : "src/"
+        }
+    }
+}
